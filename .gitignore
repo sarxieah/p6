@@ -1,0 +1,15 @@
+# ignore everything
+*
+
+# allow folders so git can keep searching inside them
+!*/
+
+# ignore virtual environments completely
+venv/
+.venv/
+
+# allow Python files
+!*.py
+
+# keep the ignore file itself tracked
+!.gitignore
