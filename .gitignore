@@ -1,15 +1,15 @@
-# ignore everything
-*
-
-# allow folders so git can keep searching inside them
-!*/
-
-# ignore virtual environments completely
+# Virtual environments
 venv/
 .venv/
 
-# allow Python files
-!*.py
+# Python cache
+__pycache__/
+*.pyc
 
-# keep the ignore file itself tracked
-!.gitignore
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Optional: ignore model weights if large
+# *.pt
+# *.pth
